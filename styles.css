@@ -1,0 +1,255 @@
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #4a93f2;
+    padding: 10px;
+  }
+  
+  .logo {
+    margin-left: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #4a93f2;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+ 
+  main {
+    padding: 20px;
+  }
+  
+  .content-container {
+    display: flex;
+  }
+  
+  .main-content {
+    flex-basis: 50%;
+  }
+
+  .main-content p {
+    margin-bottom: 20px;
+  }
+  
+  
+  .image-box {
+    flex-basis: 50%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-box img {
+    max-width: 95%;
+    height: auto;
+  }
+  
+  .workouts-container .row {
+    display: flex;
+  }
+  
+  .workouts-container .textbox {
+    flex-basis: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .workouts-container .textbox iframe {
+    width: 100%;
+  }
+  
+  
+  .left-third,
+  .middle-third,
+  .right-third {
+    flex-basis: 33.33%;
+  }
+  
+  .middle-third {
+    display: flex;
+    flex-direction: column;
+    color:#4a93f2;
+  }
+  
+  .right-third {
+    background-color: #4a93f2; 
+    color:#fff;
+    padding:35px;
+    Margin-left:20px;
+  }
+
+  
+  .classes-container {
+    text-align: center;
+  }
+  
+  .classes-container .title {
+    margin-top: 50px;
+  }
+  
+
+  .box {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .blue-box {
+    background-color: #4a93f2; 
+  }
+  
+  .pink-box {
+    background-color: pink;
+  }
+  
+  .yellow-box {
+    background-color: yellow;
+  }
+  
+  .box img {
+    max-width: 60%;
+    max-height: fit-content;
+  }
+  
+  .classes-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .middle-third2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-box2 {
+    margin-bottom: 30px; 
+    margin-left: 100px;
+    margin-right: 40px;
+  }
+  
+  
+  .location-box {
+    background-color: #4a93f2;
+    color:#fff;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  
+  .location-box h3 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .location-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .location-box li {
+    margin-bottom: 5px;
+  }
+
+ 
+.classes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .aboutus-box {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #4a93f2;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+ 
+  .spin-photo {
+    width: 100%;
+    max-width: 400px;
+    margin-left: 50px;
+    display: block;
+    margin-top: 80px;
+  }
+
+  .yoga-photo {
+    width: 100%;
+    max-width: 400px;
+    margin-left: 50px;
+    display: block;
+    margin-top: 80px;
+  }
+
+  .member-photo {
+    width: 100%;
+    max-width: 130px;
+    margin-left: 20px;
+    display: block;
+    margin-top: 20px;
+  }
+
+  .gym-photo {
+    width: 100%;
+    max-width: 400px;
+    margin-left: 50px;
+    display: block;
+    margin-top: 80px;
+  }
+
+  .owners-table {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  
+  .owners-table th,
+  .owners-table td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+
+  .footer-box {
+    background-color: #4a93f2;
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+  
+  .footer-text {
+    margin: 0;
+  }
+  

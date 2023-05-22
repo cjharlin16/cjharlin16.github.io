@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classes - Colin's Gym</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">Colin's Gym</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="workouts.html">Workouts</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="content-container">
+      <div class="classes-container">
+        <div class="box blue-box">
+          <img src="weight.png" alt="Weight Class">
+        </div>
+        <div class="text-box">
+          <h2 class="box-title">Weight Lifting Class</h2>
+          <p>Monday - Friday <br> 3PM - 5PM, 8PM - 9:30PM </p>
+        </div>
+        <div class="box pink-box">
+          <img src="yoga.png" alt="Yoga Class">
+        </div>
+        <div class="text-box">
+          <h2 class="box-title">Yoga Class</h2>
+          <p>Saturday / Sunday <br> 10AM - 11AM / 3PM - 4PM</p>
+        </div>
+        <div class="box yellow-box">
+          <img src="spin.png" alt="Spin Class">
+        </div>
+        <div class="text-box">
+          <h2 class="box-title">Spin Class</h2>
+          <p>Mondays / Wednesdays <br> 6PM - 7:30PM</p>
+		</div>
+      </div>
+      <div class="middle-third2">
+        <div class="text-box2">
+          <h2 class="box-title">What We Offer in Our Weight Lifting Class:</h2>
+          <p>-A variery of top end strength coaches <br>
+		-Planned workouts to target specific muscles <br>
+		-Large selectio of weights and workout equipment</p>
+	<h3> Price per class : $10 <h3> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+        </div>
+        <div class="text-box2">
+          <h2 class="box-title">What We Offer in Our Yoga Classes:</h2>
+          <p>-Calm yourself and wind down with a peaceful enviorment <br>
+		-Impove flexibility in all areas of yor body <br>
+		-Silent meditation and guided relaxation</p>
+		<h3> Price per class : $10 <h3> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+        </div>
+        <div class="text-box2">
+          <h2 class="box-title">What We Offer in Our Spin Classes:</h2>
+          <p>-Ride on the most up to date exercise bikes with a spin coach <br>
+		-High intensity endurance intervals <br>
+		-Screens with locations to make it seem like you're biking in differnt places all over </p>
+		<h3> Price per class : $10 <h3>
+        </div>
+      </div>
+      
+      <div class="form-container">
+        <h2 class="form-title">Join our free class raffle!</h2> <br> Enter in with your name and email and on the 1st of every month <br> we pick 10 people to win a free class of their choosing. <br> <br>
+        <form class="user-form" action="https://webdevbasics.net/scripts/javajam8.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <input type="submit" value="Submit">
+        </form>
+	<img src="gymphoto.jpg" alt="Gym Photo" class="gym-photo">
+	<img src="spinphoto.jpg" alt="Spin Class Photo" class="spin-photo">
+	<img src="yogaphoto.jpg" alt="Yoga Photo" class="yoga-photo">
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-box">
+        <p class="footer-text">Any Questions? Contact us at <a href="mailto:ColinsGyms@gmail.com">ColinsGyms@gmail.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
